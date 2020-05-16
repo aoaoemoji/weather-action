@@ -24,6 +24,6 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: Weather Report From Your Tony (${{env.REPORT_DATE}})
           body: file://result.html
-          to: xcynthia@bu.edu
+          to: xcynthia@bu.edu 
           from: GitHub Actions
           content_type: text/html
