@@ -12,4 +12,4 @@ curl \
   -H "Accept-Language: $LANGUAGE" \
   -H "User-Agent: $UA" \
   -o result.html \
-  curl wttr.in/{$BOSTON,$NANJING}?format=4
+  wttr.in/{$BOSTON,$NANJING}?format=4\&$UNIT
